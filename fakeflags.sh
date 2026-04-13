@@ -174,7 +174,7 @@ FAKE_FLAGS=(
 # ---------------------------------------------------------------
 # File extensions to randomize (not just .txt)
 # ---------------------------------------------------------------
-EXTENSIONS=("txt" "txt" "txt" "log" "bak" "conf" "cfg" "out" "tmp" "dat")
+EXTENSIONS=("txt")
 
 echo "[!] Flags discovered:"
 for FILE in $FOUND_FILES; do
